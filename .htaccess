@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+
+php_value include_path '.;E:\xampp\php\PEAR;E:\xampp\htdocs\back_end\bootstrap.php'
+
+## set_include_path(get_include_path() . PATH_SEPARATOR . 'C:\xampp\htdocs\k2');

@@ -1,0 +1,146 @@
+
+
+Gmail:
+julietgardens1@gmail.com
+Juliet@1234
+
+Facebook:
+julietgardens1@gmail.com
+Juliet@1234
+
+Paypal:
+julietgardens1@gmail.com
+juliet@ONE
+
+Google Analytics:
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CDKT545HXK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CDKT545HXK');
+</script>
+
+reCaptcha:
+<script src="https://www.google.com/recaptcha/enterprise.js?render=6Ld1FwomAAAAAKu-X9n-37fo99XSaIfi1C8wx9nA"></script>
+<script>
+grecaptcha.enterprise.ready(function() {
+    grecaptcha.enterprise.execute('6Ld1FwomAAAAAKu-X9n-37fo99XSaIfi1C8wx9nA', {action: 'login'}).then(function(token) {
+       ...
+    });
+});
+</script>
+
+
+
+test localhost maybe after adding to recaptcha domain:
+key: 6Lf4tQwmAAAAALHPqBzIfzRgJfS-HogNVRSLOVhz
+secret key: 6Lf4tQwmAAAAANMBPTEkIGaPGCiBU2-NrcBvKaQc
+
+
+
+facebook chat script:
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "PAGE-ID");
+  chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'API-VERSION'
+    });
+  };
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+curl -i -X POST "https://graph.facebook.com/v16.0/PAGE-ID/chat_plugin
+    ?welcome_screen_greeting:YOUR-WELCOME-TEXT
+    &theme_color:553399
+    &entry_point_icon:MESSENGER-ICON
+    &entry_point_label:CHAT
+    &access_token=PAGE-ACCESS-TOKEN"
+
+    https://developers.facebook.com/docs/messenger-platform/discovery/facebook-chat-plugin/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--- DO NOT EDIT - GlobalSign SSL Site Seal Code - DO NOT EDIT ---><!--<table width="100" border="0" cellspacing="0" cellpadding="0" title="CLICK TO VERIFY: This site uses a GlobalSign SSL Certificate to secure your personal information."><tr><td><span id="ss_img_wrapper_gmogs_image_100-40_en_dblue"><span id="s2b_siteseal" rel="globalsign"><script type="text/javascript" src="//www.ssl2buy.com/siteseal.js"></script></span></span><script type="text/javascript" src="//seal.globalsign.com/SiteSeal/gmogs_image_100-40_en_dblue.js"></script></td></tr></table>--><!--- DO NOT EDIT - GlobalSign SSL Site Seal Code - DO NOT EDIT --->
